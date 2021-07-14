@@ -87,7 +87,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '👨‍💼 𝙳𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚛𝚜 👨‍💼', url="https://t.me/Mo_TECH_YT"
+                                    '👨‍💼 𝙳𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚛𝚜 👨‍💼', url="https://t.me/DarkShAdOwZzZ"
                                 )
                         ]
                     ]
@@ -106,7 +106,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '👨‍💼 𝙳𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚛𝚜 👨‍💼', url="https://t.me/Mo_TECH_YT"
+                                    '👨‍💼 𝙳𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚛𝚜 👨‍💼', url="https://t.me/DarkShAdOwZzZ"
                                 )
                         ]
                     ]
@@ -119,13 +119,13 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('👨‍💼Creater', url=f'https://t.me/{MRK_YT_MASTER}'),
-        InlineKeyboardButton('Help 🤔', callback_data="help")
+        InlineKeyboardButton('👨‍💼Creater', url=f'https://t.me/{DarkShAdOwZzZ}'),
+        InlineKeyboardButton('😱', callback_data="😱")
     ],[
-        InlineKeyboardButton('🗣️Group', url=f'{MT_GROUP}'),
-        InlineKeyboardButton('Channel🔊', url=f'{MT_CHANNEL}')
+        InlineKeyboardButton('🗣️Group', url=f'{New_CinemaZ_Group}'),
+        InlineKeyboardButton('Channel🔊', url=f'{New_CinemaZ_Group}')
     ],[
-        InlineKeyboardButton('🖥️ Tutorial Video 🖥️', url='https://youtu.be/OTqZmADyOjU')
+        InlineKeyboardButton('🖥️ Tutorial Video 🖥️', url='https://t.me/New_CinemaZ_Group')
     ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
@@ -164,10 +164,10 @@ async def help(bot, update):
 async def about(bot, update):
     
     buttons = [[
-        InlineKeyboardButton('👤 Mrk YT👤', url='https://t.me/MRK_YT'),
+        InlineKeyboardButton('👤 Mrk YT👤', url='https://t.me/DarkShAdOwZzZ'),
         InlineKeyboardButton('Skp KP👤', url='https://t.me/Skp_Kp')
     ],[
-        InlineKeyboardButton('👤 AlbertEinstein 👤', url='https://t.me/AlbertEinsteinTG')
+        InlineKeyboardButton('👤 AlbertEinstein 👤', url='https://t.me/DarkShAdOwZzZ')
     ],[
         InlineKeyboardButton('🏠 Home', callback_data='start'),
         InlineKeyboardButton('Close 🔐', callback_data='close')
